@@ -1,0 +1,613 @@
+/* 店铺公告 */
+.notice{
+    height: 50px;
+    background-color: #f2f2f2;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.notice-content{
+    height: 21px;
+    padding: 14.5px 17px;
+    display: flex;
+}
+.n-c-topic{
+    padding-right: 50px;
+    font-size: 16px;
+}
+.n-c-news{
+    font-size: 14px;
+    color: #60b3fa;
+    line-height: 20px;
+}
+
+
+/* 广告-轮播图 */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide img{
+    height: 750px;
+  }
+/* .adv{
+    height: 750px;
+    background-color: #f2f2f2;
+    position: relative;
+} */
+/* .adv-photo{
+    height: 750px;
+    display: flex;
+    overflow: hidden;
+} */
+/* .adv-LR{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.adv-left{
+    width: 45px;
+    height: 79px;
+    background-color: grey;
+    text-align: center;
+    line-height: 78px;
+    font-size: 28px;
+} */
+/* .adv-right{
+    width: 45px;
+    height: 79px;
+    background-color: grey;
+    text-align: center;
+    line-height: 78px;
+    font-size: 28px;
+    margin-left: 1075px;
+} */
+
+
+/* 优惠券-轮播 */
+.coupon-box{
+    height: 120px;
+    background-color: #f2f2f2;
+    margin-top: 16px;
+    position: relative;
+}
+.cp-LR{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+.cp-left{
+    width: 38px;
+    height: 120px;
+    background-color: lavender;
+    text-align: center;
+    line-height: 120px;
+    font-size: 35px;
+    color: white;
+    /* position: absolute; */
+}
+.cp-right{
+    width: 38px;
+    height: 120px;
+    background-color: lavender;
+    text-align: center;
+    line-height: 120px;
+    font-size: 35px;
+    color: white;
+    margin-left: 1110px;
+    /* position: absolute; */
+}
+.cp-box{
+    width: 1092px;
+    /* width: 600%; */
+    height: 120px;
+    background-color: wheat;
+    /* position: relative; */
+    margin:auto;
+    margin-left: 45px;
+    float: left;
+    /* display: flex; */
+    overflow: hidden;
+}
+.cp-box-item{
+    width: 289px;
+    height: 118px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    /* float: left; */
+    background-color: thistle;
+}
+.cpb-item{
+    width: 130px;
+    height: 118px;
+    padding: 0 17px;
+    background-color: #f2f2f2;
+}
+
+
+/* 标题：特集 */
+.title-teji{
+    height: 33px;
+    /* background-color: beige; */
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.tt-word{
+    font-size: 24px;
+    line-height: 33px;
+    float: left;
+}
+.title-teji a{
+    font-size: 14px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #60b3fa;
+    margin-left: 1050px;
+}
+
+
+/* 特集-详情 */
+.teji-view-box{
+    height: 240px;
+    /* background-color: beige; */
+    display: flex;
+}
+.tvb-item{
+    width: 280px;
+    height: 218px;
+    margin-bottom: 24px;
+    /* background-color: cadetblue; */
+    /* display: flex; */
+    margin: 0 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+.tvb-item-img{
+    width: 280px;
+    height: 175px;
+    background-color: darkgoldenrod;
+    position: relative;
+}
+.tvb-item-img img{
+    width: 280px;
+    height: 175px;
+}
+.tvb-item-img span{
+    position: absolute;
+    bottom: 10px;
+    right: 17px;
+    left: 17px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 3px rgb(0 0 0 / 20%);
+}
+.tvb-item-title a{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 13px;
+    margin-top: 10px;
+    color: #000;
+}
+
+
+/* 标题：新商品-查看更多 */
+.title-goods{
+    height: 33px;
+    /* background-color: beige; */
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.tg-word{
+    font-size: 24px;
+    line-height: 33px;
+    float: left;
+}
+.title-goods a{
+    font-size: 14px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #60b3fa;
+    margin-left: 1050px;
+}
+
+/* 新商品-详情 */
+.goods-box{
+    height: 718px;
+    /* background-color: darkgray; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.gb-item{
+    width: 282px;
+    height: 339px;
+    /* background-color: darkseagreen; */
+    margin-bottom: 20px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.gb-item img{
+    width: 280px;
+    height: 280px;
+    border: 1px solid #e5e5e5;
+}
+.gb-item span{
+    font-size: 14px;
+    margin-top: 9px;
+    line-height: 20px;
+    color: #000;
+}
+.gb-item i{
+    font-size: 14px;
+    line-height: 20px;
+    color: #7f0019;
+    font-style: normal;
+    margin-right: 170px;
+}
+.gb-item em{
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    font-style: normal;
+}
+
+
+/*  标题：产品-分类目录 */
+.title-products{
+    height: 33px;
+    /* background-color: beige; */
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.tp-word{
+    font-size: 24px;
+    line-height: 33px;
+    float: left;
+}
+.title-products a{
+    font-size: 14px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #60b3fa;
+    margin-left: 1050px;
+}
+
+
+/* 标题：衣服、杂货 */
+.title-clothes{
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+
+/* 衣服-详情 */
+.tc-detail{
+    height: 192px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.tcd-item{
+    /* width: 25%; */
+    width: 280px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 24px;
+    margin-right: 14px;
+}
+.tcd-item-box{
+    width: 250px;
+    height: 50px;
+    /* background-color: beige; */
+    margin: auto;
+    margin-top: 10px;
+}
+.tcd-item-box img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    float: left;
+}
+.tcd-item-box span{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+
+/* 标题：生活杂货 */
+.title-life{
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+
+
+/* 衣服-详情 */
+.tl-detail{
+    height: 288px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.tld-item{
+    /* width: 25%; */
+    width: 280px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 24px;
+    margin-right: 14px;
+}
+.tld-item-box{
+    width: 250px;
+    height: 50px;
+    /* background-color: beige; */
+    margin: auto;
+    margin-top: 10px;
+}
+.tld-item-box img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    float: left;
+}
+.tld-item-box span{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+
+/* 标题：食品 */
+.title-food{
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+
+/* 食品-详情 */
+.tf-detail{
+    height: 96px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.tfd-item{
+    /* width: 25%; */
+    width: 280px;
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 24px;
+    margin-right: 14px;
+}
+.tfd-item-box{
+    width: 250px;
+    height: 50px;
+    /* background-color: beige; */
+    margin: auto;
+    margin-top: 10px;
+}
+.tfd-item-box img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    float: left;
+}
+.tfd-item-box span{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+
+/* 标题：销售排行榜-查看更多 */
+.title-rank{
+    height: 33px;
+    /* background-color: beige; */
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.tr-word{
+    font-size: 24px;
+    line-height: 33px;
+    float: left;
+}
+.title-rank a{
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #60b3fa;
+    margin-left: 1000px;
+}
+
+
+/* 销售排行榜-详情 */
+.rank-box{
+    height: 718px;
+    /* background-color: darkgray; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.rb-item{
+    width: 282px;
+    height: 339px;
+    /* background-color: darkseagreen; */
+    margin-bottom: 20px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.rb-item img{
+    width: 280px;
+    height: 280px;
+    border: 1px solid #e5e5e5;
+}
+.rb-item span{
+    font-size: 14px;
+    margin-top: 9px;
+    line-height: 20px;
+    color: #000;
+}
+.rb-item i{
+    font-size: 14px;
+    line-height: 20px;
+    color: #7f0019;
+    font-style: normal;
+    margin-right: 170px;
+}
+.rb-item em{
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    font-style: normal;
+}
+
+
+/* 标题：视频-查看更多 */
+.title-video{
+    height: 33px;
+    /* background-color: beige; */
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.tv-word{
+    font-size: 24px;
+    line-height: 33px;
+    float: left;
+}
+.title-video a{
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #60b3fa;
+    margin-left: 1000px;
+}
+
+
+/* 标题：亚麻，自然的选择 */
+.title-nature{
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    color: #000;
+}
+
+
+/* 正文：视频 */
+.view-video{
+    height: 675px;
+    background-color: beige;
+}
+
+
+/* 底部 */
+.footer{
+    width: 100%;
+    height: 84px;
+    background-color: #000;
+    padding-top: 28px;
+    padding-bottom: 29px;
+    margin-top: 80px;
+}
+.footer-content{
+    height: 84px;
+    display: flex;
+}
+.fc-china{
+    color: #fff;
+    margin-right: 80px;
+    font-size: 12px;
+    height: 84px;
+}
+.fc-box1{
+    width: 300px;
+    height: 84px;
+    /* background-color: azure; */
+}
+.fc-box1 span{
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    margin-top: 10px;
+}
+.fc-box1 span:first-child{
+    margin-top: 0px;
+}
+.fc-box2{
+    width: 240px;
+    height: 84px;
+    /* background-color: azure; */
+    margin-left: 136px;
+}
+.fc-box2 a{
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    margin-top: 10px;
+}
+.fc-box2 a:first-child{
+    margin-top: 0px;
+}
+.fc-box3{
+    width: 200px;
+    height: 84px;
+    /* background-color: azure; */
+    margin-left: 136px;
+}
+.fc-box3 span img{
+    width: 14px;
+    height: 16px;
+}
+.fc-box3 span{
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    margin-top: 10px;
+}
+.fc-box3 span:first-child{
+    margin-top: 0px;
+}

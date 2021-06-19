@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/shouye.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <style>
+    .swiper-button-prev{
+        left: 94px;
+        /* background-color: grey; */
+        background-color: rgba(133, 127, 127, 0.5);
+        width: 45px;
+        height: 79px;
+        color: white;
+    }
+    .swiper-button-next{
+        right: 94px;
+        background-color: rgba(133, 127, 127, 0.5);
+        width: 45px;
+        height: 79px;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <!-- 导航 -->
+    <div class="nav">
+        <div class="main nav-m">
+            <div class="nav-m-logo">
+                <a href="">
+                    <img src="./images/2TKiQAAAABJRU5ErkJggg__.png" width="145" height="60">
+                </a>
+            </div>
+            <div class="nav-m-menu">
+                <a href="javascript:;">登录/注册</a>
+                <a href="javascript:;">消息中心</a>
+                <a href="javascript:;">收藏夹</a>
+                <a href="javascript:;">郑重声明</a>
+                <a href="javascript:;">帮助</a>
+            </div>
+            <div class="nav-m-action">
+                <div class="nav-m-input" id="nav-m-input">
+                    <input type="search" placeholder='输入商品名或货号'>
+                    <a href="javascript:;">
+                         <img src="./images/GxKHRCf2vNmpmO3DRFEURVEURVEURVEURVEUJQbAHw17fZ6rnJU6AAAAAElFTkSuQmCC.png" alt="">
+                    </a>
+                    <div class="nav-m-search" id="nav-m-search">
+                        <div class="nav-m-search-babel">
+                            <span class="s-remen">热门搜索</span>
+                            <span class="s-change">换一批</span>
+                        </div>
+                        <span class="s-content">香薰机</span>
+                        <span class="s-content">沙发</span>
+                        <span class="s-content">羽绒服</span>
+                        <span class="s-content">化妆水</span>
+                        <span class="s-content">羽绒被</span>
+                        <span class="s-content">夹克</span>
+                        <span class="s-content">大衣</span>
+                        <span class="s-content">双肩包</span>
+                        <span class="s-content">睫毛夹</span>
+                        <span class="s-content">运动鞋</span>
+                    </div>
+                </div>
+                <div class="nav-m-carbox">
+                    <a href="javascript:;">
+                        <img src="./images/aqEPSH4a5lQAAAABJRU5ErkJggg__.png" alt="">
+                        <span class="car-word">购物车</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航结束 -->
+
+    <!-- 店铺公告 -->
+    <div class="notice main">
+        <div class="notice-content">
+            <div class="n-c-topic">店铺公告</div>
+            <div class="n-c-news">因部分地区仍受疫情影响，配送时效延迟公告。</div>
+        </div>
+    </div>
+    <!-- 店铺公告结束 -->
+
+    <!-- 广告-轮播图 -->
+    <!-- <div class="adv main">
+        <div class="adv-photo">
+            <a href="javascript:;">
+                <img src="./images/3beffbac-401b-49ad-bf66-ae2f404b747b.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+                <img src="./images/621aa54d-4a71-4f5b-af24-ebc8c05f4c19.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+                <img src="./images/5f4055af-ed6c-4aff-b946-954835d7e8d2.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+                <img src="./images/2500d72d-f7b4-40f1-8a5b-c4dbe14abb31.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+                <img src="./images/47dbaa44-b4b4-4dd6-8504-4d563eef439a.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+                <img src="./images/61db288c-012b-413f-be7f-37cd119bbab8.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+                <img src="./images/a409fa82-1a7d-4338-83d5-8fdcd656506d.jpg" alt="">
+            </a>
+        </div>
+        <div class="adv-LR">
+            <div class="adv-left"><</div>
+            <div class="adv-right">></div>
+        </div>
+    </div> -->
+
+    <!-- Swiper -->
+    <div class="swiper-container main">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/3beffbac-401b-49ad-bf66-ae2f404b747b.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/621aa54d-4a71-4f5b-af24-ebc8c05f4c19.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/5f4055af-ed6c-4aff-b946-954835d7e8d2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/2500d72d-f7b4-40f1-8a5b-c4dbe14abb31.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/47dbaa44-b4b4-4dd6-8504-4d563eef439a.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/61db288c-012b-413f-be7f-37cd119bbab8.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/a409fa82-1a7d-4338-83d5-8fdcd656506d.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <!-- 广告-轮播结束 -->
+
+    <!-- 优惠券-轮播 -->
+    <div class="coupon-box main">
+        <div class="cp-box">
+            <div class="cp-box-item">
+                <div class="cpb-item"></div>
+            </div>
+            <div class="cp-box-item">
+                <div class="cpb-item"></div>
+            </div>
+            <div class="cp-box-item">
+                <div class="cpb-item"></div>
+            </div>
+            <div class="cp-box-item">
+                <div class="cpb-item"></div>
+            </div>
+            <div class="cp-box-item">
+                <div class="cpb-item"></div>
+            </div>
+            <div class="cp-box-item">
+                <div class="cpb-item"></div>
+            </div>
+        </div>
+        <div class="cp-LR">
+            <div class="cp-left"><</div>
+            <div class="cp-right">></div>
+        </div>
+    </div>
+    <!-- 优惠券-轮播-结束 -->
+
+    <!-- 标题：特集 -->
+    <div class="title-teji main">
+        <div class="tt-word">特集</div>
+        <a href="javascript:;">查看更多</a>
+    </div>
+    <!-- 标题：特集-结束 -->
+
+
+    <!-- 特集-详情 -->
+    <div class="teji-view-box main">
+        <div class="tvb-item">
+            <div class="tvb-item-img">
+                <img src="./images/d42b42dd-d52a-497f-bfff-69d668cf3ed9.jpg" alt="">
+                <span>夏季睡衣系列</span>
+            </div>
+            <div class="tvb-item-title">
+                <a href="javascript:;">夏季睡衣系列</a>
+            </div>
+        </div>
+        <div class="tvb-item">
+            <div class="tvb-item-img">
+                <img src="./images/34a4d422-05ff-4766-af54-a8b39a1e587c.jpg" alt="">
+                <span>MUJI WALKER</span>
+            </div>
+            <div class="tvb-item-title">
+                <a href="javascript:;">MUJI WALKER</a>
+            </div>
+        </div>
+        <div class="tvb-item">
+            <div class="tvb-item-img">
+                <img src="./images/30f254fe-6363-4d26-abf5-9c93585e120c.jpg" alt="">
+                <span>收纳用品</span>
+            </div>
+            <div class="tvb-item-title">
+                <a href="javascript:;">收纳用品</a>
+            </div>
+        </div>
+        <div class="tvb-item">
+            <div class="tvb-item-img">
+                <img src="./images/f2c5b47e-ee27-4b18-8027-f184326b1999.jpg" alt="">
+                <span>客厅系列</span>
+            </div>
+            <div class="tvb-item-title">
+                <a href="javascript:;">客厅系列</a>
+            </div>
+        </div>
+    </div>
+    <!-- 特集-详情-结束 -->
+
+
+    <!-- 标题：新商品-查看更多 -->
+    <div class="title-goods main">
+        <div class="tg-word">新商品</div>
+        <a href="javascript:;">查看更多</a>
+    </div>
+    <!-- 标题：新商品-查看更多-结束 -->
+
+
+    <!-- 新商品-详情 -->
+    <div class="goods-box main">
+        <div class="gb-item">
+            <img src="./images/ea9ca3af-0dd3-4810-800b-30fea6ecf6e2.jpg" alt="">
+            <span>香味蜡烛·迷你 木质香</span>
+            <div>
+                <i>￥32</i>
+                <em>月销量95</em>
+            </div>
+        </div>
+        <div class="gb-item">
+            <img src="./images/3f182e94-840e-429b-b5dd-e9bfdb99d101.jpg" alt="">
+            <span>棉条纹 浴巾套装</span>
+            <div>
+                <i>￥200</i>
+                <em>月销量4</em>
+            </div>
+        </div>
+        <div class="gb-item">
+            <img src="./images/4550002546366_400.jpg" alt="">
+            <span>孩童 无侧缝 天竺编织 家居服套装 </span>
+            <div>
+                <i>￥98</i>
+                <em>月销量147</em>
+            </div>
+        </div>
+        <div class="gb-item">
+            <img src="./images/4550002546366_400.jpg" alt="">
+            <span>不易沾水 使用不易沾水带圆帽</span>
+            <div>
+                <i>￥298</i>
+                <em>月销量77</em>
+            </div>
+        </div>
+        <div class="gb-item">
+            <img src="./images/4550344419199_400.jpg" alt="">
+            <span>舒适 沙滩鞋(男士/女士)</span>
+            <div>
+                <i>￥70</i>
+                <em>月销量461</em>
+            </div>
+        </div>
+        <div class="gb-item">
+            <img src="./images/4550344606735_1260.jpg" alt="">
+            <span>棉强捻平织  被套</span>
+            <div>
+                <i>￥258</i>
+                <em>月销量98</em>
+            </div>
+        </div>
+        <div class="gb-item">
+            <img src="./images/4550344456507_01_400.jpg" alt="">
+            <span>女式 无侧缝天竺 短袖家居套装</span>
+            <div>
+                <i>￥148</i>
+                <em>月销量315</em>
+            </div>
+        </div>
+        <div class="gb-item">
+            <img src="./images/4550182914191_400.jpg" alt="">
+            <span>签字笔 914184</span>
+            <div>
+                <i>￥8</i>
+                <em>月销量1020</em>
+            </div>
+        </div>
+    </div>
+    <!-- 新商品-详情-结束 -->
+
+
+    <!-- 标题：产品-分类目录 -->
+    <div class="title-products main">
+        <div class="tp-word">产品</div>
+        <a href="javascript:;">分类目录</a>
+    </div>
+    <!-- 标题：产品-分类目录-结束 -->
+
+
+    <!-- 标题：衣服、杂货 -->
+    <div class="title-clothes main">衣服·杂货</div>
+    <!-- 标题：衣服、杂货-结束 -->
+
+
+    <!-- 衣服-详情 -->
+    <div class="tc-detail main">
+        <div class="tcd-item">
+            <div class="tcd-item-box">
+                <img src="./images/78a33e1f-78e5-42db-9f58-b7937f7dd756.jpg" alt="">
+                <span>女装</span>
+            </div>
+        </div>
+        <div class="tcd-item">
+            <div class="tcd-item-box">
+                <img src="./images/ef9cb3f3-e71c-46a7-9bda-3a38680955db.jpg" alt="">
+                <span>男装</span>
+            </div>
+        </div>
+        <div class="tcd-item">
+            <div class="tcd-item-box">
+                <img src="./images/9cf58cdd-053e-49d0-b522-5ea0cfc387aa.jpg" alt="">
+                <span>内衣</span>
+            </div>
+        </div>
+        <div class="tcd-item">
+            <div class="tcd-item-box">
+                <img src="./images/09891164-2500-482b-ab87-ce6ec43a91d4.jpg" alt="">
+                <span>鞋包</span>
+            </div>
+        </div>
+        <div class="tcd-item">
+            <div class="tcd-item-box">
+                <img src="./images/5762c0f1-d517-4239-ae58-4b0c12a78d9c.jpg" alt="">
+                <span>服饰杂货</span>
+            </div>
+        </div>
+        <div class="tcd-item">
+            <div class="tcd-item-box">
+                <img src="./images/1738428c-165f-4fe7-8654-af3eb5471777.jpg" alt="">
+                <span>童装</span>
+            </div>
+        </div>
+        <div class="tcd-item">
+            <div class="tcd-item-box">
+                <img src="./images/b33a1c94-ef6d-4f6d-a477-33e5660d715e.jpg" alt="">
+                <span> MUJI  LABO </span>
+            </div>
+        </div>
+    </div>
+    <!-- 衣服-详情-结束 -->
+
+
+    <!-- 标题：生活杂货 -->
+    <div class="title-life main">生活杂货</div>
+    <!-- 标题：生活杂货-结束 -->
+
+
+    <!-- 生活杂货-详情 -->
+    <div class="tl-detail main">
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/5ce1b2ec-5b10-401d-82fc-3a9a09d42221.jpg" alt="">
+                <span> 卫生·美容用品 </span>
+            </div>
+        </div>
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/3f182e94-840e-429b-b5dd-e9bfdb99d101.jpg" alt="">
+                <span>纺织品</span>
+            </div>
+        </div>
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/c098314b-ea18-4299-9ccc-cf3c043dc718.jpg" alt="">
+                <span> 文具 </span>
+            </div>
+        </div>
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/d0855552-9e13-45ef-869e-0263855aa447.jpg" alt="">
+                <span>居家用品</span>
+            </div>
+        </div>
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/4550344086896_1260.jpg" alt="">
+                <span> 家具 </span>
+            </div>
+        </div>
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/ee801a5e-2664-4d49-b5fa-609bc4d09e20.jpg" alt="">
+                <span> 电子产品 </span>
+            </div>
+        </div>
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/54ce96a5-e89f-4ced-95b2-887d9fa8f49e.png" alt="">
+                <span> 户外用品 </span>
+            </div>
+        </div>
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/25a23c4f-980e-49b4-bb10-d4e758908c7f.jpg" alt="">
+                <span> MUJI  IDEE </span>
+            </div>
+        </div>
+        <div class="tld-item">
+            <div class="tld-item-box">
+                <img src="./images/f71a4c14-6c55-4f67-9c66-0b4a19ff1028.jpg" alt="">
+                <span> MUJI  BOOKS </span>
+            </div>
+        </div>
+    </div>
+    <!--  生活杂货-详情-结束 -->
+
+
+    <!-- 标题：食品 -->
+    <div class="title-food main">食品</div>
+    <!-- 标题：食品-结束 -->
+
+
+    <!-- 食品-详情 -->
+    <div class="tf-detail main">
+        <div class="tfd-item">
+            <div class="tfd-item-box">
+                <img src="./images/210ca92c-16f6-475f-badd-616d18c17952.jpg" alt="">
+                <span> 点心 </span>
+            </div>
+        </div>
+        <div class="tfd-item">
+            <div class="tfd-item-box">
+                <img src="./images/78eaa806-d5ff-4f87-aafc-ae6e6b8bd430.jpg" alt="">
+                <span> 饮料·冷食 </span>
+            </div>
+        </div>
+        <div class="tfd-item">
+            <div class="tfd-item-box">
+                <img src="./images/0eadda07-69af-400c-b29a-a35ece1546f4.jpg" alt="">
+                <span> 调味加工 </span>
+            </div>
+        </div>
+    </div>
+    <!-- 食品-详情-结束 -->
+
+
+    <!-- 标题：销售排行榜 -->
+    <div class="title-rank main">
+        <div class="tr-word">销售排行榜</div>
+        <a href="javascript:;">查看更多</a>
+    </div>
+    <!-- 标题：销售排行榜-查看更多-结束 -->
+
+
+    <!-- 销售排行榜-详情 -->
+    <div class="rank-box main">
+        <div class="rb-item">
+            <img src="./images/4550344317464_1260.jpg" alt="">
+            <span>不易沾水 使用不易沾水带圆帽</span>
+            <div>
+                <i>￥298</i>
+                <em>月销量82</em>
+            </div>
+        </div>
+        <div class="rb-item">
+            <img src="./images/4839c23f-0c94-4383-b34a-9840cbd0a62f.jpg" alt="">
+            <span>舒适沙发(主体)049182</span>
+            <div>
+                <i>￥700</i>
+                <em>月销量73</em>
+            </div>
+        </div>
+        <div class="rb-item">
+            <img src="./images/4550344578766_1260.jpg" alt="">
+            <span>共聚酯 便携水杯 350ML</span>
+            <div>
+                <i>￥48</i>
+                <em>月销量1312</em>
+            </div>
+        </div>
+        <div class="rb-item">
+            <img src="./images/4550344086896_1260.jpg" alt="">
+            <span>木制框架沙发/3人座/皮面/棕色</span>
+            <div>
+                <i>￥9980</i>
+                <em>月销量4</em>
+            </div>
+        </div>
+        <div class="rb-item">
+            <img src="./images/4550182950687_400.jpg" alt="">
+            <span>直流落地循环扇</span>
+            <div>
+                <i>￥498</i>
+                <em>月销量217</em>
+            </div>
+        </div>
+        <div class="rb-item">
+            <img src="./images/4550002546366_400.jpg" alt="">
+            <span>聚丙烯 沐浴刷</span>
+            <div>
+                <i>￥130</i>
+                <em>月销量252</em>
+            </div>
+        </div>
+        <div class="rb-item">
+            <img src="./images/4549337287815_1260.jpg" alt="">
+            <span>大容量超声波香薰机</span>
+            <div>
+                <i>￥388</i>
+                <em>月销量81</em>
+            </div>
+        </div>
+        <div class="rb-item">
+            <img src="./images/4548076450382_400.jpg" alt="">
+            <span>大容量绢润卸妆油</span>
+            <div>
+                <i>￥8</i>
+                <em>月销量1020</em>
+            </div>
+        </div>
+    </div>
+    <!-- 销售排行榜-结束 -->
+
+
+    <!-- 标题：视频-查看更多 -->
+    <!-- <div class="title-video main">
+        <div class="tv-word">视频</div>
+        <a href="javascript:;">查看更多</a>
+    </div> -->
+    <!-- 标题：视频-查看更多-结束 -->
+
+
+    <!-- 标题：亚麻，自然的选择 -->
+    <!-- <div class="title-nature main">亚麻，自然的选择</div> -->
+    <!-- 标题：亚麻，自然的选择-结束 -->
+
+
+    <!-- 正文：视频 -->
+    <!-- <div class="view-video main">
+        <source src="./video/de6f8e4e-982d-46a0-a665-471c462d2b64.mp4" type="video/mp4">
+    </div> -->
+    <!-- 正文：视频-结束 -->
+
+
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer-content main">
+            <div class="fc-china">中国</div>
+            <div class="fc-box1">
+                <span>© Ryohin Keikaku Co., Ltd.</span>
+                <span>© 无印良品（上海）商业有限公司</span>
+                <span>地址：上海市静安区南京西路1601号35楼3501-3508室</span>
+            </div>
+            <div class="fc-box2">
+                <a href="javascript:;">营业执照</a>
+                <a href="javascript:;">食品经营许可证</a>
+                <a href="javascript:;">出版物经营许可证 新出发 沪批字第 X6755号</a>
+            </div>
+            <div class="fc-box3">
+                <span>沪ICP备08018225号</span>
+                <span><img src="./images/wIk2VA61kxtRAAAAABJRU5ErkJggg__.png" alt=""> 沪公网安备 31010602002779号 </span>
+                <span><img src="./images/ABRKkaxPvf1pAAAAAElFTkSuQmCC.png" alt=""> 上海工商 </span>
+            </div>
+        </div>
+    </div>
+    <!-- 底部-结束 -->
+    
+<script src="./js/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        autoplay: {pauseOnMouseEnter: true,delay:2000},
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+      },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+      },
+    });
+</script>
+</body>
+<script src="./js/index.js"></script>
+<!-- <script src="./js/animation.js"></script> -->
+<!-- <script src="./js/utils.js"></script> -->
+</html>

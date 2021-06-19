@@ -1,0 +1,70 @@
+.register-box{
+    width: 425px;
+    height: 380px;
+    /* background-color:wheat; */
+    margin-top: 40px;
+    /* display: none; */
+}
+.rb-form-box{
+    width: 425px;
+    height: 50px;
+    /* background-color: thistle; */
+    font-size: 14px;
+    color: #333;
+}
+.rb-form-box input{
+    display: inline-block;
+    width: 301px;
+    height: 30px;
+    margin-right: 0px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    padding-left: 4px;
+}
+.rb-form-box span{
+    display: inline-block;
+    width: 90px;
+    height: 20px;
+}
+.rb-form-box-beizhu{
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    /* background-color: thistle; */
+    font-size: 14px;
+    color: #999;
+    padding-right: 10px;
+}
+.rb-form-button{
+    width: 387px;
+    height: 38px;
+    /* background-color: thistle; */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.rb-form-button button{
+    display: inline-block;
+    width: 184px;
+    height: 38px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #000;
+    color: white;
+}
+.rb-form-agree{
+    width: 387px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.rb-form-agree span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.rb-form-box3-register a{
+    font-size: 14px;
+    color: #60b3fa;
+}

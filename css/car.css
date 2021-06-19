@@ -1,0 +1,73 @@
+.mains{
+    width: 88%;
+    height: 100%;
+    margin: auto;
+}
+.car-head{
+    height: 36px;
+    background-color: wheat;
+    margin-top: 30px;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+.car-head input{
+    margin-left: 20px;
+}
+.ch-title{
+    display: inline-block;
+}
+.ch-title span{
+    margin-right: 150px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.ch-title span:first-child{
+    margin-left: 15px;
+}
+.car-body{
+    background-color: wheat;
+    border: 1px solid #999;
+}
+.cb-kuaidi{
+    font-size: 16px;
+    /* padding-left: 15px; */
+    background-color: #f2f2f2;
+    padding: 6px 8px;
+}
+.car-bottom{
+    height: 70px;
+    margin-top: 30px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+}
+.car-bottom input{
+    margin-left: 20px;
+}
+.cb-box1{
+    width: 700px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: thistle;
+}
+.cb-box1 a{
+    font-size: 14px;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+.cb-box2{
+    width: 300px;
+    height: 42px;
+    margin-left: 100px;
+    background-color: thistle;
+    font-size: 14px;
+    
+}
+.cb-box2 i{
+    font-style: normal;
+}
